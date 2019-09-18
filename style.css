@@ -12,10 +12,8 @@ html{
 	
 }
 body{
-   margin-top: 80px;
-   background: url('https://igenyesferfi.hu/wp-content/uploads/2017/04/smarthome_intelligens_otthon.jpg') no-repeat center center fixed;
-//  background-size: cover;
-	
+  margin-top: 80px;
+  background: url("assets/smarthome_intelligens_otthon.jpg") no-repeat center center fixed;
   background-origin:content-box;
      }
 #main{
@@ -58,7 +56,6 @@ img:hover {
   border-radius: 5px;
   margin: 0px auto;
   padding: 5px;
-//  border: 1px solid;
 }
 #prof1, #prof2, #prof3{
   float:left;
@@ -67,20 +64,16 @@ img:hover {
   text-align: center;
 }
 #description{
-//  height: 550px;
   border-radius: 10px;
   padding: 5px;
 }
 #availability{
- // background-color: white;
   width: 40%;
   border-radius: 10px;
   padding: 5px;
   float: left;
 }
 #availability2{
-//  background-color: pink;
- // width: 40%;
   border-radius: 10px;
   background-color: hsla(0, 0%, 100%, .5);
   border-radius: 6px;
@@ -95,8 +88,7 @@ img:hover {
 }
 #about_me{
   width: 59%;
-//  height: 290px;
-     background-color: hsla(0, 0%, 80%, .65);
+  background-color: hsla(0, 0%, 80%, .65);
   border-radius: 6px;
   box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
   border-radius: 6px;
@@ -107,17 +99,17 @@ img:hover {
   border: 1px solid;
 }
 #address{
- // background-color: cyan;
   border-radius: 5px;
 }
 #social{
   background-color: lightblue;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   text-align: center;
-  margin: 20px auto;
+  margin: 1rem auto;
   width: 70%;
   border: 1px solid;
   color: hsla(224, 100%, 11%, 1);
+	display: block;
 }
 #name{
   border: 2px ;
@@ -138,17 +130,34 @@ img:hover {
   margin: 0 auto;
 }
 p{
-    margin-top: 5px;
-    font-size: 27x;
+  margin-top: 5px;
+  font-size: 27x;
 }
 ul {
   list-style-type: none;
+	margin: 0px;
+	padding: 5px;
 }
 
 li {
   display: inline;
 }
 h2 {
-  font-size: 16px;
+  font-size: 1rem;
+	text-align: center;
   color: white;
+  background-color: hsla(224, 100%, 11%, 0.7);
+  border: 1px solid;
+	border-radius: 0.5rem;
+  border-color: white;
+	padding: 0.2rem;
+}
+
+#address a img {
+	width: 20px;
+	height:auto;
+	position:relative;
+  left:3px;
+	top:17px;
+	border-radius: 0;
 }
