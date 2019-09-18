@@ -1,0 +1,154 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+//  color: #999;
+  font-family: Arial;
+}
+html{
+  background-color: black;
+	
+}
+body{
+   margin-top: 80px;
+   background: url('https://igenyesferfi.hu/wp-content/uploads/2017/04/smarthome_intelligens_otthon.jpg') no-repeat center center fixed;
+//  background-size: cover;
+	
+  background-origin:content-box;
+     }
+#main{
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  margin: 10px auto;
+  border: 1px solid;
+  display: table;
+  color: white;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: hsla(232, 90%, 33%, 0.5);
+
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+#profil{
+  text-align: center;
+  border-radius: 10px;
+}
+img{
+  width: 150px;
+  height: 150px;
+  margin-top: -60px;
+  border-radius: 80%;
+  padding: 2px;
+  background-color: white;
+  transition: all 0.2s ease-in-out;
+  filter: grayscale(50%);
+  box-shadow: hsla(0, 0%, 0%, .6) 5px 5px 10px;
+}
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+  background-color: lightblue;
+}
+#profession{
+   
+  width:70%;
+  height: 90px;
+  border-radius: 5px;
+  margin: 0px auto;
+  padding: 5px;
+//  border: 1px solid;
+}
+#prof1, #prof2, #prof3{
+  float:left;
+  width: 33.333%;
+  margin: 0 auto;
+  text-align: center;
+}
+#description{
+//  height: 550px;
+  border-radius: 10px;
+  padding: 5px;
+}
+#availability{
+ // background-color: white;
+  width: 40%;
+  border-radius: 10px;
+  padding: 5px;
+  float: left;
+}
+#availability2{
+//  background-color: pink;
+ // width: 40%;
+  border-radius: 10px;
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 6px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  font-size: 12px;
+  color: hsla(224, 100%, 11%, 1); 
+  padding: 5px;
+  border: 1px solid;
+}
+#telephone{
+    font-size: 12px;
+}
+#about_me{
+  width: 59%;
+//  height: 290px;
+     background-color: hsla(0, 0%, 80%, .65);
+  border-radius: 6px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  border-radius: 6px;
+  float: right;
+  padding: 5px;
+  font-size: 14px;
+  color: hsla(224, 100%, 11%, 1);
+  border: 1px solid;
+}
+#address{
+ // background-color: cyan;
+  border-radius: 5px;
+}
+#social{
+  background-color: lightblue;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px auto;
+  width: 70%;
+  border: 1px solid;
+  color: hsla(224, 100%, 11%, 1);
+}
+#name{
+  border: 2px ;
+  font-size:32px;
+  font-style: ;
+}
+.logo{
+  width: 40px;
+  margin-top: 0px;
+  height: 40px;
+  color: blue;
+  margin: 0 auto;
+}
+.soc_logo{
+  width: 20px;
+  height: 20px;
+  color: lightblue;
+  margin: 0 auto;
+}
+p{
+    margin-top: 5px;
+    font-size: 27x;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+h2 {
+  font-size: 16px;
+  color: white;
+}
