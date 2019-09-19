@@ -4,18 +4,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-//  color: #999;
   font-family: Arial;
 }
+
 html{
   background-color: black;
 	
 }
+
 body{
   margin-top: 80px;
   background: url("assets/smarthome_intelligens_otthon.jpg") no-repeat center center fixed;
   background-origin:content-box;
-     }
+}
+
 #main{
   width: 480px;
   max-width: calc(100vw - 10px);
@@ -29,26 +31,30 @@ body{
 
   box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
 }
+
 #profil{
   text-align: center;
   border-radius: 10px;
 }
+
 img{
   width: 150px;
   height: 150px;
   margin-top: -60px;
   border-radius: 80%;
   padding: 2px;
-  background-color: white;
+  background-color: transparent;
   transition: all 0.2s ease-in-out;
   filter: grayscale(50%);
   box-shadow: hsla(0, 0%, 0%, .6) 5px 5px 10px;
 }
+
 img:hover {
   transform: scale(1.1);
   filter: grayscale(0%);
-  background-color: lightblue;
+  background-color: transparent;
 }
+
 #profession{
    
   width:70%;
@@ -57,22 +63,26 @@ img:hover {
   margin: 0px auto;
   padding: 5px;
 }
+
 #prof1, #prof2, #prof3{
   float:left;
   width: 33.333%;
   margin: 0 auto;
   text-align: center;
 }
+
 #description{
   border-radius: 10px;
   padding: 5px;
 }
+
 #availability{
   width: 40%;
   border-radius: 10px;
   padding: 5px;
   float: left;
 }
+
 #availability2{
   border-radius: 10px;
   background-color: hsla(0, 0%, 100%, .5);
@@ -83,9 +93,11 @@ img:hover {
   padding: 5px;
   border: 1px solid;
 }
+
 #telephone{
-    font-size: 12px;
+  font-size: 12px;
 }
+
 #about_me{
   width: 59%;
   background-color: hsla(0, 0%, 80%, .65);
@@ -98,9 +110,11 @@ img:hover {
   color: hsla(224, 100%, 11%, 1);
   border: 1px solid;
 }
+
 #address{
   border-radius: 5px;
 }
+
 #social{
   background-color: lightblue;
   border-radius: 0.5rem;
@@ -111,11 +125,13 @@ img:hover {
   color: hsla(224, 100%, 11%, 1);
 	display: block;
 }
+
 #name{
   border: 2px ;
   font-size:32px;
   font-style: ;
 }
+
 .logo{
   width: 40px;
   margin-top: 0px;
@@ -123,16 +139,19 @@ img:hover {
   color: blue;
   margin: 0 auto;
 }
+
 .soc_logo{
   width: 20px;
   height: 20px;
   color: lightblue;
   margin: 0 auto;
 }
+
 p{
   margin-top: 5px;
   font-size: 27x;
 }
+
 ul {
   list-style-type: none;
 	margin: 0px;
@@ -142,6 +161,7 @@ ul {
 li {
   display: inline;
 }
+
 h2 {
   font-size: 1rem;
 	text-align: center;
@@ -157,7 +177,18 @@ h2 {
 	width: 20px;
 	height:auto;
 	position:relative;
-  left:3px;
+  left:0px;
 	top:17px;
 	border-radius: 0;
+	box-shadow: none;
+
+}
+
+#address a img:hover {
+	width: 26px;
+	height:auto;
+	position:relative;
+  transform: scale(1.15);
+	border-radius: 0;
+	box-shadow: none;
 }
