@@ -14,7 +14,7 @@ html{
 body{
   margin-top: 80px;
 	margin: 0 auto;
-  background-image: url(assets/smarthome_intelligens_otthon.jpg);
+  background-image: url(assets/smarthome_intelligens_otthon_kerettel.jpg);
 	background-repeat:no-repeat;
 	background-position:center center;
 	background-origin:border-box;
@@ -119,13 +119,13 @@ img:hover {
 }
 
 #social{
-  background-color: lightblue;
-  border-radius: 0.5rem;
+ // background-color: lightblue;
+  //border-radius: 0.5rem;
   text-align: center;
   margin: 1rem auto;
   width: 70%;
-  border: 1px solid;
-  color: hsla(224, 100%, 11%, 1);
+  //border: 1px solid;
+ // color: hsla(224, 100%, 11%, 1);
 	display: block;
 }
 
@@ -180,11 +180,10 @@ h2 {
 	width: 20px;
 	height:auto;
 	position:relative;
-  left:0px;
-	top:17px;
-	border-radius: 0;
+  left:60px;
+	top:30px;
+  border-radius: 0;
 	box-shadow: none;
-
 }
 
 #address a img:hover {
@@ -194,4 +193,8 @@ h2 {
   transform: scale(1.15);
 	border-radius: 0;
 	box-shadow: none;
+}
+
+#e-mail {
+	margin-top: 1rem;
 }
