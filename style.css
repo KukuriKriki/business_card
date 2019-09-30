@@ -5,30 +5,34 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial;
+	background-color: transparent;
 }
 
 html{
-  background-color: black;
-  //background: url("assets/smarthome_intelligens_otthon.jpg") no-repeat center center fixed;
 }
 
 body{
   margin-top: 80px;
-//  background: url("assets/smarthome_intelligens_otthon.jpg") no-repeat center center fixed;
-  background-origin:content-box;
+	margin: 0 auto;
+  background-image: url(assets/smarthome_intelligens_otthon.jpg);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-origin:border-box;
+	background-size: cover;
+	background-attachment:fixed;
 }
 
 #main{
   width: 450px;
   max-width: calc(100vw - 10px);
-  margin: 1rem auto;
+  margin: 0 auto;
+	margin-top: 5rem;
   border: 0.04rem solid;
   display: table;
   color: white;
   border-radius: 0.3rem;
   padding: 1rem;
   background-color: hsla(232, 90%, 33%, 0.5);
-
   box-shadow: hsla(0, 0%, 0%, .8) 1rem 1rem 5rem;
 }
 
